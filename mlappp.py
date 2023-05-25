@@ -19,11 +19,7 @@ if os.path.exists("sourcev.csv"):
 
 with st.sidebar:
     st.header("Welcome to Machine Learning Application!")
-    st.subheader("A machine learning model is a mathematical algorithm or framework that
-                 learns patterns and relationships from data in order to make predictions 
-                 or take decisions without being explicitly programmed. 
-                 It is a key component of machine learning and is designed to capture 
-                 and generalize the underlying patterns and structure in the data.")
+    st.subheader("A machine learning model is a mathematical algorithm or framework thatlearns patterns and relationships from data in order to make predictioor take decisions without being explicitly programmed. It is a key component of machine learning and is designed to capture and generalize the underlying patterns and structure in the data.")
     st.caption("Choose your parameters here: ")
     choose=st.radio(":computer:",["Dataset","Explore","Train","Download"])
     

@@ -19,12 +19,16 @@ if os.path.exists("sourcev.csv"):
 
 with st.sidebar:
     st.header("Welcome to Machine Learning Application!")
-    st.subheader("This Application is made for learning machine models.")
+    st.subheader("A machine learning model is a mathematical algorithm or framework that
+                 learns patterns and relationships from data in order to make predictions 
+                 or take decisions without being explicitly programmed. 
+                 It is a key component of machine learning and is designed to capture 
+                 and generalize the underlying patterns and structure in the data.")
     st.caption("Choose your parameters here: ")
     choose=st.radio(":computer:",["Dataset","Explore","Train","Download"])
     
 if choose=="Dataset":
-    st.write("Please upload your dataset here.")
+    st.write("Please upload your dataset here. Only'.csv' files authorize.")
     dataset_value = st.file_uploader("Upload here")
     
     if dataset_value:

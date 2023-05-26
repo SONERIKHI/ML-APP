@@ -24,7 +24,7 @@ with st.sidebar:
     choose=st.radio(":computer:",["Dataset","Explore","Train","Download"])
     
 if choose=="Dataset":
-    st.caption("Machine learning model are typically used for tasks such as classification, regression, clustering, or recommendation systems.")
+    st.caption("Machine learning model are typically used for tasks such as classification or regression.")
     st.write("Please upload your dataset here. Only'.csv' files authorize.")
     dataset_value = st.file_uploader("Upload here")
     
